@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maxon - landing page</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/d633f21f4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <!--   
+        #Header
+        -->
+    <header class="header bg-gray-200 w-full fixed top-0 left-0 z-[100] py-2 h-[50px]">
+        <div class="container h-full flex items-center justify-between">
+            <a href="#" class="logo relative z-[100] font-bold text-2xl">ma<span class="text-mainColor">x</span>on</a>
+            <button id="menu-bar" class="block relative z-[100] md:hidden"><i
+                    class="fa-solid fa-bars-staggered"></i></button>
+            <nav class="hidden md:block">
+                <ul class="flex items-center justify-end gap-10">
+                    <li><a class="uppercase hover:underline hover:text-mainColor duration-100" href="#home">Home</a>
+                    </li>
+                    <li><a class="uppercase hover:underline hover:text-mainColor duration-100" href="#about">About</a>
+                    </li>
+                    <li><a class="uppercase hover:underline hover:text-mainColor duration-100"
+                            href="#features">Features</a></li>
+                    <li><a class="uppercase hover:underline hover:text-mainColor duration-100"
+                            href="#project">Project</a></li>
+                    <li><a class="uppercase hover:underline hover:text-mainColor duration-100" href="#blog">blog</a>
+                    </li>
+                    <li><a class="uppercase hover:underline hover:text-mainColor duration-100"
+                            href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- 
+        #Home
+    -->
+    <section id="home" class="home bg-gray-200 mt-[50px] md:h-[calc(100vh-50px)] relative pb-5">
+        <img src="imgs/shape-1.png" alt="element 1" class="absolute right-0 md:left-0 top-1/4 scale-75">
+        <img src="imgs/shape-2.png" alt="element 1" class="absolute left-1/3 top-3/4 scale-75">
+        <img src="imgs/shape-3.png" alt="element 1" class="absolute left-1/4 top-1/3">
+        <div class="container h-full grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-6 relative z-10">
+            <div data-aos="fade-right" data-aos-duration="2500" class="text-side flex flex-col gap-5 items-start">
+                <span class="text-mainColor">Creative Agency</span>
+                <h2 class="text-2xl md:text-4xl font-bold leading-normal">
+                    Building Brand is <br> Our Business
+                </h2>
+                <p class="text-gray-500">
+                    Can days you'll forth two grass form face you saying, divide. Subdue days light whose. Stars
+                    creepeth that creature thing.
+                </p>
+                <a href="#Project" class="main-btn">View project</a>
+            </div>
+            <div class="img-side">
+                <img data-aos="fade-left" data-aos-duration="2500" src="imgs/hero-img.png" alt="hero img">
+            </div>
+        </div>
+    </section>
+    <!--
+        #About
+    -->
+    <section class="about md:min-h-[60vh] relative py-14 grid" id="about">
+        <img src="imgs/shape-4.png" alt="element 1" class="absolute right-0 md:right-10 top-1/4 scale-75">
+        <img src="imgs/shape-5.png" alt="element 1" class="absolute left-1/3 top-3/4 scale-75">
+
+        <div class="px-5 md:p-0 grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-6 relative z-10">
+            <div class="img-side" data-aos="flip-left" data-aos-duration="2000">
+                <img src="imgs/about-img.png" alt="">
+            </div>
+            <div class="text-side flex flex-col gap-5 items-start md:pr-20" data-aos="fade-right"
+                data-aos-duration="2500">
+                <span class="text-mainColor">About our company</span>
+                <h2 class="text-2xl md:text-4xl font-bold leading-normal">
+                    Make the customer the hero of your story
+                </h2>
+                <p class="text-gray-800 font-medium">
+                    Open without also first greats land and bring said you give second face seed deep whales.
+                </p>
+                <p class="text-gray-500">
+                    May is called whose was moveth was isn't. Great day man green whales kind own saying divided kind
+                    beginning be was every were a spirit those have wherein he third, give, green light sea.
+                </p>
+                <a href="#Project" class="main-btn">View project</a>
+            </div>
+        </div>
+    </section>
+    <!--
+        #Features
+    -->
+    <section class="features py-14 relative" id="features">
+        <img src="imgs/shape-7.png" alt="element 1" class="absolute right-0 md:left-10 bottom-0 scale-75">
+        <div class="container">
+            <div class="main-title text-center mb-5" data-aos="fade-down" data-aos-duration="1500">
+                <span class="text-mainColor">Special Features</span>
+                <h2 class="font-bold text-2xl">Advertising with Difference</h2>
+            </div>
+            <div class="content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                <div class="card group" data-aos="fade-right" data-aos-duration="1500" style="min-height: 300px;">
+                    <img class="group-hover:scale-125 transition-all duration-300" src="imgs/Icon-1.png"
+                        alt="Unique Design">
+                    <h4 class="font-bold text-lg">Unique Design</h4>
+                    <p class="text-gray-600">Bring creature let Fish to grass under the given a void from deep form
+                        greater and days give upon
+                        day light likeness.</p>
+                </div>
+                <div class="card group" data-aos="fade-down" data-aos-duration="2000" style="min-height: 300px;">
+                    <img class="group-hover:scale-125 transition-all duration-300" src="imgs/Icon-2.png"
+                        alt="Standard Quality">
+                    <h4 class="font-bold text-lg">Standard Quality</h4>
+                    <p class="text-gray-600">Bring creature let Fish to grass under the given a void from deep form
+                        greater and days give upon day light likeness.</p>
+                </div>
+                <div class="card group" data-aos="fade-down" data-aos-duration="2500" style="min-height: 300px;">
+                    <img class="group-hover:scale-125 transition-all duration-300" src="imgs/Icon-3.png"
+                        alt="Secure Service">
+                    <h4 class="font-bold text-lg">Secure Service</h4>
+                    <p class="text-gray-600">Bring creature let Fish to grass under the given a void from deep form
+                        greater and days give upon day light likeness.</p>
+                </div>
+                <div class="card group" data-aos="fade-left" data-aos-duration="3000" style="min-height: 300px;">
+                    <img class="group-hover:scale-125 transition-all duration-300" src="imgs/Icon-4.png"
+                        alt="24/7 Support">
+                    <h4 class="font-bold text-lg">24/7 Support</h4>
+                    <p class="text-gray-600">Bring creature let Fish to grass under the given a void from deep form
+                        greater and days give upon day light likeness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 
+        #Projects
+    -->
+    <section class="project md:min-h-[60vh] relative py-14 grid" id="project">
+        <img src="imgs/shape-4.png" alt="element 1" class="absolute right-0 md:right-10 top-1/4 scale-75">
+        <img src="imgs/shape-5.png" alt="element 1" class="absolute left-1/3 top-3/4 scale-75">
+
+        <div class="main-title text-center mb-5" data-aos="fade-down" data-aos-duration="1500">
+            <span class="text-mainColor capitalize">Client work experience</span>
+            <h2 class="font-bold text-2xl">Recent Creative Work</h2>
+        </div>
+
+        <img src="imgs/shape-2.png" alt="element 1" class="absolute left-2/3 top-1/3 scale-75">
+        <img src="imgs/shape-5.png" alt="element 1" class="absolute left-1/3 top-3/4 scale-75">
+        <img src="imgs/shape-4.png" alt="element 1" class="absolute left-1/3 bottom-1/2 scale-75">
+
+        <div class="grid gap-5">
+
+            <div class="px-5 md:p-0 grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-8 relative z-10"
+                data-aos="fade-down" data-aos-duration="1500">
+                <div class="md:pl-20 text-side flex flex-col gap-5 items-start" data-aos="fade-right"
+                    data-aos-duration="1500" data-aos-delay="500">
+                    <span class="text-mainColor capitalize">About our company</span>
+                    <h2 class="text-2xl md:text-2xl font-bold leading-normal">
+                        For You beast you herb whales she would two you are
+                    </h2>
+                    <p class="text-gray-500">
+                        Seasons let creeping seasons was green a tree called bring created Shall made whales very green
+                        may
+                        above dominion seed. Day wo out. Doesn creeping can called she very. Beast creeping. air secod
+                        without, good shall two forth a stars every have won't seed be forth Tree fruitful may May light
+                        that thating
+                    </p>
+                    <a href="#Project" class="second-btn">Learn more <svg xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="31px" height="9px">
+                            <path fill-rule="evenodd" fill="rgb(17, 46, 65)"
+                                d="M25.814,8.340 L26.570,8.995 L31.000,4.828 L31.000,4.174 L26.570,0.007 L25.849,0.661 L29.346,4.038 L-0.000,4.038 L-0.000,4.964 L29.346,4.964 L25.814,8.340 Z" />
+                        </svg></a>
+                </div>
+                <div class="img-side">
+                    <img data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500" src="imgs/product-1.png"
+                        alt="">
+                </div>
+            </div>
+
+
+            <div class="px-5 md:p-0 grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-8 relative z-10"
+                data-aos="fade-down" data-aos-duration="1500">
+                <div class="img-side" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <img src="imgs/product-2.png" alt="">
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500"
+                    class="md:pr-20 text-side flex flex-col gap-5 items-start">
+                    <span class="text-mainColor capitalize">digital design</span>
+                    <h2 class="text-2xl md:text-2xl font-bold leading-normal">
+                        Green earth him and us whose
+                        bring us behold whales
+                    </h2>
+                    <p class="text-gray-500">
+                        Seasons let creeping seasons was green a tree called bring created Shall made whales very green
+                        may
+                        above dominion seed. Day wo out. Doesn creeping can called she very. Beast creeping. air secod
+                        without, good shall two forth a stars every have won't seed be forth Tree fruitful may May light
+                        that thating.
+                    </p>
+                    <a href="#Project" class="second-btn text-mainColor">Learn more <svg
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31px"
+                            height="9px">
+                            <path class="fill-mainColor" fill-rule="evenodd" fill="rgb(17, 46, 65)"
+                                d="M25.814,8.340 L26.570,8.995 L31.000,4.828 L31.000,4.174 L26.570,0.007 L25.849,0.661 L29.346,4.038 L-0.000,4.038 L-0.000,4.964 L29.346,4.964 L25.814,8.340 Z" />
+                        </svg></a>
+                </div>
+
+            </div>
+
+            <div class="px-5 md:p-0 grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-8 relative z-10"
+                data-aos="fade-down" data-aos-duration="1500">
+                <div class="md:pl-20 text-side flex flex-col gap-5 items-start" data-aos="fade-right"
+                    data-aos-duration="1500" data-aos-delay="500">
+                    <span class="text-mainColor capitalize">graphic design</span>
+                    <h2 class="text-2xl md:text-2xl font-bold leading-normal">
+                        Saw to fill that the beast Water
+                        winged so fruitful tree
+                    </h2>
+                    <p class="text-gray-500">
+                        Seasons let creeping seasons was green a tree called bring created Shall made whales very green
+                        may
+                        above dominion seed day won out. Doesn creeping can called she very. Beast creeping. air secod
+                        without, good shall two forth a stars every have won't seed be forth Tree fruitful may May light
+                        that thating.
+                    </p>
+                    <a href="#Project" class="second-btn">Learn more <svg xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="31px" height="9px">
+                            <path fill-rule="evenodd" fill="rgb(17, 46, 65)"
+                                d="M25.814,8.340 L26.570,8.995 L31.000,4.828 L31.000,4.174 L26.570,0.007 L25.849,0.661 L29.346,4.038 L-0.000,4.038 L-0.000,4.964 L29.346,4.964 L25.814,8.340 Z" />
+                        </svg></a>
+                </div>
+                <div class="img-side" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <img src="imgs/product-3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 
+        #Analytics
+    -->
+    <section class="analytics relative py-10 bg-secondColor">
+        <div class="container grid grid-cols-1 md:grid-cols-4 gap-3">
+            <div class="flex flex-col items-center gap-3" data-aos="fade-right" data-aos-duration="1500">
+                <img class="w-10 h-10" src="./imgs//analytic-1.png" alt="analytics">
+                <div class="text flex items-center gap-2 text-white">
+                    <p class="number md:text-xl font-bold">92</p>
+                    <p class="desc text-sm capitalize">Satisfied client</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center gap-3" data-aos="fade-down" data-aos-duration="2000">
+                <img class="w-10 h-10" src="./imgs//analytic-2.png" alt="analytics">
+                <div class="text flex items-center gap-2 text-white">
+                    <p class="number md:text-xl font-bold">85</p>
+                    <p class="desc text-sm capitalize">Total project</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center gap-3" data-aos="fade-down" data-aos-duration="2500">
+                <img class="w-10 h-10" src="./imgs//analytic-3.png" alt="analytics">
+                <div class="text flex items-center gap-2 text-white">
+                    <p class="number md:text-xl font-bold">67</p>
+                    <p class="desc text-sm capitalize">work completed</p>
+                </div>
+            </div>
+            <div class="flex flex-col items-center gap-3" data-aos="fade-left" data-aos-duration="3000">
+                <img class="w-10 h-10" src="./imgs//analytic-4.png" alt="analytics">
+                <div class="text flex items-center gap-2 text-white">
+                    <p class="number md:text-xl font-bold">85</p>
+                    <p class="desc text-sm capitalize">Happy Client</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        #Testimonials
+    -->
+
+    <section class="py-10">
+        <div class="main-title text-center mb-5" data-aos="fade-down" data-aos-duration="1500">
+            <span class="text-mainColor capitalize">Testimonials</span>
+            <h2 class="font-bold text-2xl">Happy Client Says</h2>
+        </div>
+        <div class="px-5 md:p-0 grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-8 relative z-10">
+
+            <div class="img-side relative overflow-hidden" data-aos="fade-right" data-aos-duration="2500">
+                <img class="relative" src="./imgs//testimonials.png" alt="testimonials">
+                <div class="absolute w-full inset-0 opacity-50 bg-slate-800"></div>
+                <div
+                    class="text-up grid place-items-center gap-5 text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <div
+                        class="icon cursor-pointer hover:brightness-125 bg-mainColor w-14 h-14 grid place-items-center rounded-full shadow-2xl shadow-mainColor">
+                        <i class="fa-solid fa-play text-2xl"></i>
+                    </div>
+                    <p class="text-sm">Watch intro video</p>
+                </div>
+            </div>
+
+            <div class="relative">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex flex-col px-5 relative">
+
+                            <img src="imgs/shape-2.png" alt="element 1" class="absolute left-1/3 top-1/4 scale-75">
+
+                            <img class="w-24 mb-8" src="./imgs/person-1.png" alt="person">
+                            <p class="mb-5 text-gray-600">
+                                Day set fifth winged divided seas years, seas is void darkness winged. Season green life
+                                Don great said won't whales together man lesser is may Itself need moveth herb itself
+                                darkness likeness sixth creepeth.
+                            </p>
+                            <div class="flex gap-10 items-center">
+                                <img src="./imgs/logo.png" alt="">
+                                <div class="">
+                                    <p class="font-bold">Millard Castinson</p>
+                                    <p class="text-gray-500">Software Developer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide flex flex-col px-5 relative">
+
+                            <img src="imgs/shape-3.png" alt="element 1" class="absolute left-1/3 top-1/4 scale-75">
+
+                            <img class="w-24 mb-8" src="./imgs/person-2.png" alt="person">
+                            <p class="mb-5 text-gray-600">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis dolor odio dolores
+                                voluptas nostrum sapiente nam, autem fuga blanditiis dignissimos!
+                            </p>
+                            <div class="flex gap-10 items-center">
+                                <img src="./imgs/logo.png" alt="">
+                                <div class="">
+                                    <p class="font-bold">John Mark</p>
+                                    <p class="text-gray-500">Software Developer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide flex flex-col px-5 relative">
+
+                            <img src="imgs/shape-4.png" alt="element 1" class="absolute left-1/3 top-1/4 scale-75">
+
+                            <img class="w-24 mb-8" src="./imgs/person-3.png" alt="person">
+                            <p class="mb-5 text-gray-600">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quis, temporibus ipsa
+                                fugiat accusantium amet excepturi animi. Nesciunt libero sunt tempora reprehenderit
+                                facere ab. Dolores quae assumenda eum minus? Vitae.
+                            </p>
+                            <div class="flex gap-10 items-center">
+                                <img src="./imgs/logo.png" alt="">
+                                <div class="">
+                                    <p class="font-bold">Mohamed Gad</p>
+                                    <p class="text-gray-500">Software Developer</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <i
+                        class="fa-solid fa-arrow-right-long text-2xl absolute top-10 right-1/3 cursor-pointer w-12 h-12 z-50"></i>
+                    <i
+                        class="fa-solid fa-arrow-left-long text-2xl absolute top-10 right-1/3 cursor-pointer w-12 h-12 z-50 mr-20"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        #Our Team
+    -->
+    <section class="team py-10">
+        <div class="main-title text-center mb-5" data-aos="fade-down" data-aos-duration="1500">
+            <span class="text-mainColor capitalize">team member</span>
+            <h2 class="font-bold text-2xl">Our Experieced Team</h2>
+        </div>
+        <div class="container grid grid-cols-1 md:grid-cols-3 gap-5">
+            <div class="card gap-10 group overflow-hidden" data-aos="fade-right" data-aos-duration="1500">
+                <img class="group-hover:scale-[1.32] duration-300 mb-5" src="./imgs//team-1.png" alt="team">
+                <div class="details">
+                    <h3 class="font-bold group-hover:text-mainColor">Deborah Parkes</h3>
+                    <p class="text-gray-600">Software developer</p>
+                    <div class="links flex justify-between items-center gap-5 text-sm text-gray-800">
+                        <a class="hover:text-mainColor" href="#">facebook</a>
+                        <a class="hover:text-mainColor" href="#">twitter</a>
+                        <a class="hover:text-mainColor" href="#">skype</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card gap-10 group overflow-hidden" data-aos="fade-down" data-aos-duration="2000">
+                <img class="group-hover:scale-[1.32] duration-300 mb-5" src="./imgs//team-2.png" alt="team">
+                <div class="details">
+                    <h3 class="font-bold group-hover:text-mainColor">Kathryn Patrick</h3>
+                    <p class="text-gray-600">Software developer</p>
+                    <div class="links flex justify-between items-center gap-5 text-sm text-gray-800">
+                        <a class="hover:text-mainColor" href="#">facebook</a>
+                        <a class="hover:text-mainColor" href="#">twitter</a>
+                        <a class="hover:text-mainColor" href="#">skype</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card gap-10 group overflow-hidden" data-aos="fade-left" data-aos-duration="2500">
+                <img class="group-hover:scale-[1.32] duration-300 mb-5" src="./imgs//team-3.png" alt="team">
+                <div class="details">
+                    <h3 class="font-bold group-hover:text-mainColor">Wendy Frazier</h3>
+                    <p class="text-gray-600">Software developer</p>
+                    <div class="links flex justify-between items-center gap-5 text-sm text-gray-800">
+                        <a class="hover:text-mainColor" href="#">facebook</a>
+                        <a class="hover:text-mainColor" href="#">twitter</a>
+                        <a class="hover:text-mainColor" href="#">skype</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 
+        #Blog
+    -->
+    <section class="team py-10" id="blog">
+        <div class="main-title text-center mb-5" data-aos="fade-down" data-aos-duration="1500">
+            <span class="text-mainColor capitalize">Latest news</span>
+            <h2 class="font-bold text-2xl">Latest From Blog</h2>
+        </div>
+        <div class="container grid grid-cols-1 md:grid-cols-3 gap-5">
+            <div class="card gap-10 group overflow-hidden" data-aos="fade-right" data-aos-duration="1500">
+                <img class="group-hover:scale-125 duration-300 mb-5" src="./imgs//blog-1.png" alt="blog">
+                <div class="details flex flex-col items-start gap-2">
+                    <span class=" text-left text-xs">DESIGN | July 15, 2019</span>
+                    <h3 class="font-bold text-start group-hover:text-mainColor">Make dry it is saying earth lights great
+                        brought</h3>
+                    <div class="links flex justify-between items-center gap-5 text-sm text-gray-800">
+                        <a class="hover:text-mainColor" href="#"><i class="text-mainColor fa-regular fa-comment"></i> 4
+                            Comments</a>
+                        <a class="hover:text-mainColor text-xs" href="#"><i
+                                class="text-mainColor fa-regular fa-heart"></i> 15
+                            Like</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card gap-10 group overflow-hidden" data-aos="fade-down" data-aos-duration="2000">
+                <img class="group-hover:scale-125 duration-300 mb-5" src="./imgs//blog-2.png" alt="blog">
+                <div class="details flex flex-col items-start gap-2">
+                    <span class=" text-left text-xs">DESIGN | July 17, 2019</span>
+                    <h3 class="font-bold text-start group-hover:text-mainColor">Make dry it is saying earth lights great
+                        brought</h3>
+                    <div class="links flex justify-between items-center gap-5 text-sm text-gray-800">
+                        <a class="hover:text-mainColor" href="#"><i class="text-mainColor fa-regular fa-comment"></i> 4
+                            Comments</a>
+                        <a class="hover:text-mainColor text-xs" href="#"><i
+                                class="text-mainColor fa-regular fa-heart"></i> 15
+                            Like</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card gap-10 group overflow-hidden" data-aos="fade-left" data-aos-duration="2500">
+                <img class="group-hover:scale-125 duration-300 mb-5" src="./imgs//blog-3.png" alt="blog">
+                <div class="details flex flex-col items-start gap-2">
+                    <span class=" text-left text-xs">DESIGN | July 20, 2019</span>
+                    <h3 class="font-bold text-start group-hover:text-mainColor">Make dry it is saying earth lights great
+                        brought</h3>
+                    <div class="links flex justify-between items-center gap-5 text-sm text-gray-800">
+                        <a class="hover:text-mainColor" href="#"><i class="text-mainColor fa-regular fa-comment"></i> 4
+                            Comments</a>
+                        <a class="hover:text-mainColor text-xs" href="#"><i
+                                class="text-mainColor fa-regular fa-heart"></i> 15
+                            Like</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+        #Contact
+    -->
+    <section class="contact py-10" id="contact">
+        <div class="container grid grid-cols-1 gap-5 md:grid-cols-3">
+            <div class="text-side grid gap-2" data-aos="zoom-out" data-aos-duration="1500">
+                <div class="main-title mb-0 gap-2">
+                    <span class="text-mainColor capitalize">Contact US</span>
+                    <h2 class="font-bold text-2xl">Don’t Hesitate, Ask
+                        Any Query</h2>
+                </div>
+                <div class="text-gray-600 text-xs">
+                    <i class="fa-solid fa-map-location mr-2"></i>
+                    123 Main Street, 310 USA 12345
+                </div>
+                <div class="text-gray-600 text-xs">
+                    <i class="fa-solid fa-phone mr-2"></i>
+                    +20 155 543 229
+                </div>
+                <div class="text-gray-600 text-xs">
+                    <i class="fa-solid fa-envelope mr-2"></i>
+                    hessennasser3579@gmail.com
+                </div>
+            </div>
+            <div class="form col-span-2" data-aos="fade-left" data-aos-duration="2000">
+                <form class="grid gap-5">
+                    <div class="row grid md:grid-cols-2 gap-5">
+                        <input class="border-[1px] py-2 px-3" type="text" name="name" id="name" placeholder="Full Name">
+                        <input class="border-[1px] py-2 px-3" type="phone" name="phone" id="phone" placeholder="Phone">
+                    </div>
+                    <input class="border-[1px] py-2 px-3" type="email" name="email" id="email" placeholder="Email">
+                    <textarea class="border-[1px] py-2 px-3 resize-none" placeholder="Your Message" name="message"
+                        id="message" cols="30" rows="5"></textarea>
+                    <button type="submit" class="main-btn w-fit mx-auto">SEND Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--  
+        #Sponsors
+    -->
+
+    <section class="sponsors py-10">
+        <div class="container grid grid-cols-2 md:grid-cols-4 gap-10">
+            <img src="./imgs/sponsor-1.png" data-aos="fade-right" data-aos-duration="1500" alt="sponsor">
+            <img src="./imgs/sponsor-2.png" data-aos="fade-down" data-aos-duration="2000" alt="sponsor">
+            <img src="./imgs/sponsor-3.png" data-aos="fade-down" data-aos-duration="2500" alt="sponsor">
+            <img src="./imgs/sponsor-4.png" data-aos="fade-left" data-aos-duration="3000" alt="sponsor">
+        </div>
+    </section>
+
+    <!-- 
+        #Footer
+    -->
+
+    <footer class="footer bg-secondColor pt-10">
+        <div class="top-footer">
+            <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 text-white">
+                <div>
+                    <a href="#" class="logo block mb-3 font-bold text-white text-2xl">ma<span
+                            class="text-mainColor">x</span>on</a>
+                    <p class="text-gray-300 text-sm leading-7">Evening creature waters unto fill deep man given divided
+                        whales man kind Winged open us and there
+                        to multiply land evening under </p>
+                </div>
+                <div>
+                    <h2 class="mb-3 font-bold">Our Services</h2>
+                    <ul class="grid gap-2 text-gray-400">
+                        <li><a href="#">Frontend Developing</a></li>
+                        <li><a href="#"></a>Graphic Design</li>
+                        <li><a href="#"></a>Software Developing</li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Wordpress Developing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-3 font-bold">Instagram feed</h2>
+                    <ul class="grid grid-cols-3 gap-2 text-gray-400">
+                        <li class="overflow-hidden">
+                            <img class="hover:scale-125 hover:rotate-3 hover:brightness-125 duration-300 cursor-pointer"
+                                src="./imgs/footer-1.png" alt="footer">
+                        </li>
+                        <li class="overflow-hidden">
+                            <img class="hover:scale-125 hover:rotate-3 hover:brightness-125 duration-300 cursor-pointer"
+                                src="./imgs/footer-2.png" alt="footer">
+                        </li>
+                        <li class="overflow-hidden">
+                            <img class="hover:scale-125 hover:rotate-3 hover:brightness-125 duration-300 cursor-pointer"
+                                src="./imgs/footer-3.png" alt="footer">
+                        </li>
+                        <li class="overflow-hidden">
+                            <img class="hover:scale-125 hover:rotate-3 hover:brightness-125 duration-300 cursor-pointer"
+                                src="./imgs/footer-4.png" alt="footer">
+                        </li>
+                        <li class="overflow-hidden">
+                            <img class="hover:scale-125 hover:rotate-3 hover:brightness-125 duration-300 cursor-pointer"
+                                src="./imgs/footer-5.png" alt="footer">
+                        </li>
+                        <li class="overflow-hidden">
+                            <img class="hover:scale-125 hover:rotate-3 hover:brightness-125 duration-300 cursor-pointer"
+                                src="./imgs/footer-6.png" alt="footer">
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="mb-3 font-bold">Contact Info</h2>
+                    <ul class="text-xs grid gap-5">
+                        <li>
+                            <i class="fa-solid fa-map-location mr-2"></i>
+                            123 Main Street, 310 USA 12345
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone mr-2"></i>
+                            +20 155 543 229
+                        </li>
+                        <li class="text-[10px]">
+                            <i class="fa-solid fa-envelope mr-1"></i>
+                            hessennasser3579@gmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="py-2 mt-2 border-t-[1px] border-gray-500 bottom-footer text-center text-white">
+            <p>Copyright © 2023 <a class="text-mainColor" href="https://sm8rtdev.online" target="_blank">Hessen
+                    Nasser</a> All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".fa-arrow-right-long",
+                prevEl: ".fa-arrow-left-long",
+            },
+            autoplay: {
+                delay: 2000,
+            },
+            loop: true,
+        });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
+    <script src="./main.js"></script>
+</body>
+
+</html>

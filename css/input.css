@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .main-btn {
+        @apply bg-mainColor text-white px-5 py-2 rounded-3xl hover:bg-secondColor hover:translate-x-2 transition-all duration-300;
+    }
+    .main-title {
+        @apply grid gap-5 mb-10
+    }
+    .second-btn {
+        @apply flex items-center gap-3 font-bold hover:translate-x-2 transition-all duration-300;
+    }
+
+    .card {
+        @apply p-4 rounded-lg text-center shadow-xl border-[1px] flex flex-col items-center justify-center gap-5 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300;
+    }
+}
